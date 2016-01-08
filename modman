@@ -1,0 +1,5 @@
+src                                         app/code/community/Webgriffe/WhatsAppShare
+Webgriffe_WhatsAppShare.xml                 app/etc/modules/Webgriffe_WhatsAppShare.xml
+layout/webgriffe/whatsappshare.xml          app/design/frontend/base/default/layout/webgriffe/whatsappshare.xml
+template/webgriffe/whatsappshare.phtml      app/design/frontend/base/default/template/webgriffe/whatsappshare.phtml
+skin/whatsapp-button.js                     skin/frontend/base/default/js/webgriffe/whatsapp-button.js

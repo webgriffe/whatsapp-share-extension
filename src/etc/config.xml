@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Webgriffe_WhatsAppShare>
+            <version>1.0.0</version>
+        </Webgriffe_WhatsAppShare>
+    </modules>
+    <global>
+    	<blocks>
+    		<webgriffe_whatsappshare>
+    			<class>Webgriffe_WhatsAppShare_Block</class>
+    		</webgriffe_whatsappshare>
+    	</blocks>
+    	<helpers>
+            <webgriffe_whatsappshare>
+                <class>Webgriffe_WhatsAppShare_Helper</class>
+            </webgriffe_whatsappshare>
+        </helpers>
+    	<models>
+            <webgriffe_whatsappshare>
+                <class>Webgriffe_WhatsAppShare_Model</class>
+                <resourceModel>webgriffe_whatsappshare_resource</resourceModel>
+            </webgriffe_whatsappshare>
+            <webgriffe_whatsappshare_resource>
+                <class>Webgriffe_WhatsAppShare_Model_Resource</class>
+            </webgriffe_whatsappshare_resource>
+        </models>
+    	<resources>
+            <webgriffe_whatsappshare_setup>
+                <setup>
+                    <module>Webgriffe_WhatsAppShare</module>
+                </setup>
+            </webgriffe_whatsappshare_setup>
+        </resources>
+    </global>
+    <frontend>
+    	<layout>
+            <updates>
+                <webgriffe_whatsappshare>
+                    <file>webgriffe/whatsappshare.xml</file>
+                </webgriffe_whatsappshare>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+    	<webgriffe_whatsappshare>
+    		<general>
+    			<enabled>1</enabled>
+    			<message>Check out this product!</message>
+    		</general>
+    	</webgriffe_whatsappshare>
+    </default>
+</config>

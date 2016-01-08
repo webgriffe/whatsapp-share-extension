@@ -1,0 +1,12 @@
+<?php 
+    $whatsapp = Mage::helper('webgriffe_whatsappshare');
+?>
+<?php if ($whatsapp->isEnabled()): ?>
+		<a href="whatsapp://send" data-text="<?php echo $whatsapp->getMessage() ?>" data-href="<?php echo Mage::registry('current_product')->getProductUrl() ?>" class="wa_btn wa_btn_s" style="display:none">Share</a>
+<?php endif; ?>
+
+<?php if ($whatsapp->isEnabled()): ?>
+    <script type="text/javascript">
+        if(typeof wabtn4fg==="undefined"){wabtn4fg=1;h=document.head||document.getElementsByTagName("head")[0],s=document.createElement("script");s.type="text/javascript";s.src="<?php echo $this->getSkinUrl('js/webgriffe/whatsapp-button.js') ?>";h.appendChild(s);}
+    </script>
+<?php endif; ?>

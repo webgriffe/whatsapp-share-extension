@@ -1,0 +1,12 @@
+{
+    "name": "webgriffe/whatsapp-share-extension",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"WhatsApp Share Extension for Magento",
+    "authors":[
+        {
+            "name":"Webgriffe SRL",
+            "email":"mail@webgriffe.com"
+        }
+    ]
+}
